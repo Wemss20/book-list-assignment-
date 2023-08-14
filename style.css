@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.main{
+    /* background-image: linear-gradient(to bottom, rgba(218, 72, 159, 0.52), rgba(230, 230, 230, 0)), url(images/pexels-leeloo-thefirst-6906619.jpg); */
+    /* background-position-y: bottom; */
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    /* background-color: brown; */
+    padding: 60px;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.8); 
+    /* background-color: rgba(218, 72, 159, 0.52); */
+     background-color: rgba(214, 93, 160, 0.459);
+   
+} 
+form input{
+    margin: 15px;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(112, 89, 100, 0.541);
+    /* background-color: rgba(202, 162, 186, 0.541); */
+}
+input::placeholder{
+    font-size: 12px;
+    padding-left:5px ;
+    color: antiquewhite;
+}
+
+form button{
+    width: 80px;
+    padding: 5px;
+    font-size: 13px;
+    margin: auto;
+    background-color: rgb(189, 36, 120);
+    color: antiquewhite;
+    border-radius: 5px;
+    border-style: none;
+}
+form button:hover{
+    background-color: rgb(160, 47, 47);
+    /* background-color:rgb(228, 11, 112); */
+}
+
+#book-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 36%;
+    /* width: 500px; */
+   
+}
+
+.book-item {
+    /* background-color: rgb(231, 139, 190) ; */
+    padding: 10px;
+    margin: 5px 0;
+    
+
+}
+
+.read-status {
+    margin-left: 150px;
+    padding-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+   
